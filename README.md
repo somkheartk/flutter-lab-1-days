@@ -28,6 +28,18 @@ This project teaches you how to build a complete full-stack application includin
 - ✅ Input validation
 - ✅ CORS enabled for Flutter
 
+## 📖 Documentation
+
+**Thai Language Guides:**
+- 📱 **[WIDGETS_SUMMARY_TH.md](./WIDGETS_SUMMARY_TH.md)** - สรุป Widgets ที่ใช้ในแอปพลิเคชัน (43 ชนิด) พร้อมคำอธิบายและตัวอย่างโค้ดเป็นภาษาไทย
+- 📚 **[LEARNING_GUIDE.md](./LEARNING_GUIDE.md)** - คู่มือเรียนรู้ทีละขั้นตอนเป็นภาษาไทย
+- 🔧 **[BACKEND_GUIDE.md](./BACKEND_GUIDE.md)** - คู่มือ Backend Development เป็นภาษาไทย
+
+**English Guides:**
+- 🚀 **[QUICKSTART.md](./QUICKSTART.md)** - 5-minute quick start guide
+- 📋 **[PROJECT_OVERVIEW.md](./PROJECT_OVERVIEW.md)** - Complete project architecture
+- 💪 **[EXERCISES.md](./EXERCISES.md)** - Progressive coding challenges
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -292,6 +304,7 @@ npm run start:dev
 ```
 
 ### Documentation:
+- 📖 **[WIDGETS_SUMMARY_TH.md](./WIDGETS_SUMMARY_TH.md)** - Complete Thai summary of Flutter widgets used (สรุป widgets ที่ใช้ในแอปเป็นภาษาไทย)
 - 📖 **[BACKEND_GUIDE.md](./BACKEND_GUIDE.md)** - Complete Thai guide for backend development
 - 📖 **[backend/BACKEND_README.md](./backend/BACKEND_README.md)** - Backend API documentation
 
