@@ -76,5 +76,12 @@ app.*.map.json
 # Web related
 lib/generated_plugin_registrant.dart
 
+# Backend related (Node.js)
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/package-lock.json
+backend/*.log
+
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
