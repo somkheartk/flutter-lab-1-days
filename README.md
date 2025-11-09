@@ -1,14 +1,15 @@
 # Flutter Lab 1 Days - E-commerce Learning Project
 
-🎯 **Learn Flutter in 1 Day!** A comprehensive hands-on lab for beginners to learn Flutter development from login to a complete e-commerce app.
+🎯 **Learn Flutter + Backend in 1 Day!** A comprehensive hands-on lab for beginners to learn full-stack mobile development with Flutter and NestJS.
 
 ## 📚 What You'll Learn
 
-This project teaches you how to build a complete Flutter application including:
+This project teaches you how to build a complete full-stack application including:
 
+**Frontend (Flutter):**
 - ✅ User authentication (Login screen)
 - ✅ State management with Provider
-- ✅ API integration (Fake Store API)
+- ✅ API integration
 - ✅ Navigation between screens
 - ✅ Product listing (E-commerce)
 - ✅ Product details
@@ -17,16 +18,32 @@ This project teaches you how to build a complete Flutter application including:
 - ✅ Network image loading
 - ✅ Error handling
 
+**Backend (NestJS + MongoDB):**
+- ✅ REST API with NestJS
+- ✅ MongoDB database integration
+- ✅ JWT authentication
+- ✅ User registration & login
+- ✅ Products CRUD operations
+- ✅ Password hashing with bcrypt
+- ✅ Input validation
+- ✅ CORS enabled for Flutter
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 
+**For Flutter:**
 1. **Install Flutter**: Follow the [official Flutter installation guide](https://docs.flutter.dev/get-started/install)
 2. **IDE**: VS Code or Android Studio with Flutter plugins
 3. **Emulator/Device**: Set up an Android emulator, iOS simulator, or connect a physical device
 
+**For Backend:**
+1. **Node.js 18+**: Download from [nodejs.org](https://nodejs.org)
+2. **MongoDB**: Install locally or use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) (free tier)
+
 ### Installation
 
+**Flutter App:**
 ```bash
 # Clone this repository
 git clone https://github.com/somkheartk/flutter-lab-1-days.git
@@ -38,6 +55,26 @@ flutter pub get
 # Run the app
 flutter run
 ```
+
+**Backend API:**
+```bash
+# Navigate to backend directory
+cd backend
+
+# Install dependencies
+npm install
+
+# Configure environment (copy and edit .env file)
+cp .env.example .env
+
+# Seed database with sample data
+npm run seed
+
+# Start the server
+npm run start:dev
+```
+
+The backend will run at `http://localhost:3000/api`
 
 ## 📱 Features
 
@@ -226,10 +263,48 @@ Want to extend this project? Try:
 
 ## 📝 Notes
 
-- This is a **learning project** with mock authentication
-- Uses **Fake Store API** for product data
+- This is a **learning project** with full-stack capabilities
+- Includes **NestJS + MongoDB Backend** for real API integration
+- Flutter app can use either the local backend or Fake Store API
 - All code is **heavily commented** for learning
 - Follow the **1-day schedule** above for best results
+
+## 🔗 Backend API
+
+This project now includes a complete **NestJS + MongoDB backend**!
+
+### Features:
+- ✅ User authentication with JWT
+- ✅ Product management (CRUD)
+- ✅ Category filtering
+- ✅ MongoDB database
+- ✅ RESTful API design
+- ✅ Input validation
+- ✅ Password hashing
+
+### Quick Start:
+```bash
+cd backend
+npm install
+cp .env.example .env
+npm run seed
+npm run start:dev
+```
+
+### Documentation:
+- 📖 **[BACKEND_GUIDE.md](./BACKEND_GUIDE.md)** - Complete Thai guide for backend development
+- 📖 **[backend/BACKEND_README.md](./backend/BACKEND_README.md)** - Backend API documentation
+
+### API Endpoints:
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - Login user
+- `GET /api/products` - Get all products
+- `GET /api/products/:id` - Get product by ID
+- `GET /api/products/category/:category` - Get products by category
+
+**Demo Credentials:**
+- Email: `demo@test.com`
+- Password: `password`
 
 ## 🐛 Common Issues
 
