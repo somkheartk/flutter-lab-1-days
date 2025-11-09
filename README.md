@@ -39,6 +39,7 @@ This project teaches you how to build a complete full-stack application includin
 - 🚀 **[QUICKSTART.md](./QUICKSTART.md)** - 5-minute quick start guide
 - 📋 **[PROJECT_OVERVIEW.md](./PROJECT_OVERVIEW.md)** - Complete project architecture
 - 💪 **[EXERCISES.md](./EXERCISES.md)** - Progressive coding challenges
+- 🏗️ **[SOFTWARE_ENGINEERING.md](./SOFTWARE_ENGINEERING.md)** - Software engineering best practices, design patterns, and architecture principles
 
 ## 🚀 Getting Started
 
